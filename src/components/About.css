@@ -1,0 +1,139 @@
+.About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #043959;
+    gap: 40px;
+}
+
+.name_block {
+    width: 700px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font: 3.5em sans-serif;
+    letter-spacing: 3px;
+}
+
+.name_block h1{
+    font-family: first;
+    color: rgba(0, 255, 255, 0.509);
+    text-shadow: 0 0 50px cyan;
+}
+
+.name_block .line_des {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(0, 255, 4);
+    svg{
+        font-size: .7em;
+    }
+}
+
+.about_information {
+    width: 600px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+    font-size: 1.5em;
+    background: linear-gradient(to right, white, blueviolet);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  svg{
+    color: dodgerblue;
+  }
+}
+
+.constructor{ 
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    border: 15px solid cyan;
+    box-shadow: 0 0 50px cyan;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+.skills_block{
+    width: 600px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+    font-size: 1.5em;
+    background: linear-gradient(to right, white, blueviolet);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+    svg{
+        color: dodgerblue;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: first;
+    src: url('/src/fonts/FirstMedalDemoRegular.ttf');
+};
+
+@font-face {
+    font-family: genzo;
+    src: url('/src/fonts/Genzo-Bold.ttf');
+};
+
+@font-face {
+    font-family: plump;
+    src: url('/src/fonts/Plumpkins.ttf');
+}
