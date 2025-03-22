@@ -33,11 +33,6 @@
     font-family: yot;
     font-size: 4em;
     letter-spacing: 5px;
-    background: linear-gradient( blue, cyan);
-    -webkit-background-clip: text;
-    background-size: cover;
-    background-clip: text;
-    color: transparent;
 }
 
 .contact_container {
@@ -268,68 +263,110 @@ iframe {
     height: 100%;
 }
 
-/* Desktop (Default, 1200px և ավել) */
-@media screen and (max-width: 1300px) {
+/* ✅ Large Screens (1300px and smaller) */
+@media (max-width: 1300px) {
     .pickchar {
-        width: 700px;
-        height: 130px;
+      width: 90%;
     }
-
-    .pickchar h2 {
-        font-size: 3em;
-    }
-
-    .contact_container {
-        width: 85%;
-        height: 65%;
-    }
-
+  
     .inputs_block {
-        width: 450px;
-        /* height: 90%; */
+      width: 450px;
     }
-
-    .inputs_block .text {
-        width: 80%;
-        height: 100px;
-        font-size: 1.5em;
+  
+    .col_block {
+      width: 600px;
     }
-
-    .inputs_block input {
-        width: 95%;
-        height: 40px;
+  }
+  
+  /* ✅ Medium Screens (1024px and smaller) */
+  @media (max-width: 1024px) {
+    .contact_container {
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
     }
-
-    .name{
-        font-size: .9em;
+  
+    .inputs_block {
+      width: 90%;
+      transform: none;
+      translate: 0;
     }
-
-    .surname{
-        font-size: .9em;
+  
+    .col_block {
+      width: 90%;
+      height: auto;
     }
-
-    .emile{
-        font-size: .9em;
+  
+    .col_block .col_mass {
+      flex-direction: column;
+      align-items: center;
     }
-
-    .massage{
-        font-size: .9em;
+  
+    .col_block .col_mass .info_block {
+      width: 100%;
+      transform: rotate(0);
+      translate: 0;
     }
-
-    .massage textarea {
-        width: 95%;
-        height: 90px;
+  }
+  
+  /* ✅ Tablets (768px and smaller) */
+  @media (max-width: 768px) {
+    .pickchar {
+      transform: translateY(0);
     }
-
-    .inputs_block input::placeholder {
-        font-size: .9em;
+  
+    .pickchar h2 {
+      font-size: 3em;
     }
-
-    .inputs_block button {
-        width: 150px;
-        height: 50px;
+  
+    .inputs_block {
+      width: 100%;
+      transform: none;
+      translate: 0;
     }
-}
+  
+    .maps {
+      height: 150px;
+      translate: 0;
+    }
+  }
+  
+  /* ✅ Mobile Phones (480px and smaller) */
+  @media (max-width: 480px) {
+    .pickchar h2 {
+      font-size: 2em;
+    }
+  
+    .inputs_block {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .col_block {
+      width: 100%;
+    }
+  
+    .maps {
+      height: 120px;
+    }
+  }
+  
+  /* ✅ Small Mobile Devices (320px and smaller) */
+  @media (max-width: 320px) {
+    .pickchar h2 {
+      font-size: 1.5em;
+    }
+  
+    .inputs_block {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .maps {
+      height: 100px;
+    }
+  }
 
 
 
