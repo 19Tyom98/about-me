@@ -267,14 +267,17 @@ iframe {
 @media (max-width: 1300px) {
     .pickchar {
       width: 90%;
+      overflow: hidden;
     }
   
     .inputs_block {
       width: 450px;
+      overflow: hidden;
     }
   
     .col_block {
       width: 600px;
+        overflow: hidden;
     }
   }
   
@@ -284,28 +287,33 @@ iframe {
       flex-direction: column;
       height: auto;
       gap: 30px;
+        overflow: hidden;
     }
   
     .inputs_block {
       width: 90%;
       transform: none;
       translate: 0;
+        overflow: hidden;
     }
   
     .col_block {
       width: 90%;
       height: auto;
+        overflow: hidden;
     }
   
     .col_block .col_mass {
       flex-direction: column;
       align-items: center;
+        overflow: hidden;
     }
   
     .col_block .col_mass .info_block {
       width: 100%;
       transform: rotate(0);
       translate: 0;
+        overflow: hidden;
     }
   }
   
@@ -313,21 +321,25 @@ iframe {
   @media (max-width: 768px) {
     .pickchar {
       transform: translateY(0);
+        overflow: hidden;
     }
   
     .pickchar h2 {
       font-size: 3em;
+        overflow: hidden;
     }
   
     .inputs_block {
       width: 100%;
       transform: none;
       translate: 0;
+        overflow: hidden;
     }
   
     .maps {
       height: 150px;
       translate: 0;
+        overflow: hidden;
     }
   }
   
@@ -335,20 +347,24 @@ iframe {
   @media (max-width: 480px) {
     .pickchar h2 {
       font-size: 2em;
+        overflow: hidden;
     }
   
     .inputs_block {
       width: 100%;
       height: auto;
       padding: 20px;
+        overflow: hidden;
     }
   
     .col_block {
       width: 100%;
+        overflow: hidden;
     }
   
     .maps {
       height: 120px;
+        overflow: hidden;
     }
   }
   
@@ -356,15 +372,18 @@ iframe {
   @media (max-width: 320px) {
     .pickchar h2 {
       font-size: 1.5em;
+        overflow: hidden; 
     }
   
     .inputs_block {
       width: 100%;
       padding: 15px;
+        overflow: hidden;
     }
   
     .maps {
       height: 100px;
+        overflow: hidden;
     }
   }
 
