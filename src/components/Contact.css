@@ -161,7 +161,6 @@ header .fav h2{
   object-fit: cover;
 }
 
-/* ✅ Large Screens (1300px and smaller) */
 @media (max-width: 1300px) {
   .home {
     padding: 40px;
@@ -174,7 +173,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Medium Screens (1024px and smaller) */
 @media (max-width: 1024px) {
   .home {
     flex-direction: column;
@@ -193,7 +191,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Tablets (768px and smaller) */
 @media (max-width: 768px) {
   .home .about {
     font-size: 1.2em;
@@ -216,7 +213,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Mobile Phones (480px and smaller) */
 @media (max-width: 480px) {
   .home {
     padding: 15px;
@@ -240,7 +236,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Small Mobile Devices (320px and smaller) */
 @media (max-width: 320px) {
   .home .about {
     font-size: 0.9em;
@@ -264,7 +259,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Large Screens (1300px and smaller) */
 @media (max-width: 1300px) {
   header {
     padding: 15px;
@@ -275,7 +269,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Medium Screens (1024px and smaller) */
 @media (max-width: 1024px) {
   header {
     height: auto;
@@ -302,7 +295,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Tablets (768px and smaller) */
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -328,7 +320,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Mobile Phones (480px and smaller) */
 @media (max-width: 480px) {
   header {
     padding: 8px;
@@ -347,7 +338,6 @@ header .fav h2{
   }
 }
 
-/* ✅ Small Mobile Devices (320px and smaller) */
 @media (max-width: 320px) {
   header {
     padding: 5px;
