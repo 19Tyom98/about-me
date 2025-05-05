@@ -50,6 +50,6 @@ export const skyls = [
         na3 : 'JAVA SCRIPT',
         na4 : 'REACT',
         na5 : 'REDUX',
-        na6 : 'REACT TULKIT' 
+        na6 : 'REACT TULKIT'
     }
 ]
