@@ -91,6 +91,7 @@ export default function Contact() {
         {
           img.map(item => {
             return <div className="pickchar">
+              <img src={item.img}alt="img" />
               <h2>Contact ME</h2>
             </div>
           })
