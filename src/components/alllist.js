@@ -30,11 +30,11 @@ export const img = [{pic : './images/senior2.jpg'}]
 export const info = [
     {
         my_name : 'Artyom Ghukasyan',
-        info : 'The NavLink component in React Router is a special type of Link that allows you to style links dynamically based on whether they are active or not. Its useful for highlighting the current page navigation menus.',
+        info : 'My professional approach is based on persistence and creativity, ensuring high-quality results in every project. I quickly learn new technologies and adapt to the requirements of different projects while maintaining the most effective solutions and excellent performance. It is crucial to me that my work is not only technically perfect but also clear and useful for the end-user.',
         adres : 'ARMENIA EREVAN',
         number : '+374 41130297',
         mail : 'ghukasyantyom79@gmail.com',
-        ip: 'www.ghukasyan.am'
+        ip: 'about-me-coral.vercel.app'
     }
 ]
 
@@ -44,10 +44,12 @@ export const pick = [{pickchr : './images/senior3.jpg'}]
 export const skyls = [
     {
         skyl_name : 'My Professional Skills',
-        inf : 'The NavLink component in React Router is a special type of Link that allows you to style links dynamically based on whether they are active or not. Its useful for highlighting the current page navigation menus.',
+        inf : 'I have experience with HTML, CSS, JavaScript, React, and other advanced technologies that allow me to solve a wide range of problems, from website design to interactive web solutions and dynamic functionality',
         na1 : 'HTML',
         na2 : 'CSS',
         na3 : 'JAVA SCRIPT',
-        na4 : 'REACT'
+        na4 : 'REACT',
+        na5 : 'REDUX',
+        na6 : 'REACT TULKIT' 
     }
 ]
