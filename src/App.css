@@ -161,6 +161,7 @@ header .fav h2{
   object-fit: cover;
 }
 
+/* ✅ Large Screens (1300px and smaller) */
 @media (max-width: 1300px) {
   .home {
     padding: 40px;
@@ -235,6 +236,7 @@ header .fav h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
   }
 
   header .navbar a {
@@ -250,6 +252,8 @@ header .fav h2{
     font-size: 1em;
   }
 }
+
+
 
 
 
