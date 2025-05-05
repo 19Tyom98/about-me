@@ -32,15 +32,14 @@ export default function Contact() {
 
  const get_in = [
   {
-      ver : 'Contacct ME',
+      ver : 'Contact ME',
       verif : 'Get In Touch',
       name : 'Name',
       surname : 'Surname',
-      emile : 'Emiale',
-      massage : 'Massage'
+      emile : 'Email',
+      massage : 'Message'
   }
 ]
-
   useEffect(() => {
     const styls = [
       document.querySelector('.name'),
