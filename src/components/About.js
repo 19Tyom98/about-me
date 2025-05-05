@@ -13,6 +13,8 @@ import { SiHtml5 } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa6";
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { BiLogoRedux } from "react-icons/bi";
+import { GiReactor } from "react-icons/gi";
 
 
 export default function About() {
@@ -53,6 +55,8 @@ export default function About() {
                 <h3>{sky.na2} __ <FaCss3 /> <hr /></h3>
                 <h3>{sky.na3} __ <FaJsSquare /> <hr /></h3>
                 <h3>{sky.na4} __ <FaReact /> <hr /></h3>
+                <h3>{sky.na5} __ <BiLogoRedux /> <hr /></h3>
+                <h3>{sky.na6} __ <GiReactor /> <hr /></h3>
             </div>
           })
         }
@@ -60,3 +64,4 @@ export default function About() {
     </div>
   )
 }
+
