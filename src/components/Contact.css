@@ -263,130 +263,112 @@ iframe {
     height: 100%;
 }
 
-/* ✅ Large Screens (1300px and smaller) */
-@media (max-width: 1300px) {
-    .pickchar {
-      width: 90%;
-      overflow: hidden;
-    }
-  
-    .inputs_block {
-      width: 450px;
-      overflow: hidden;
-    }
-  
-    .col_block {
-      width: 600px;
-        overflow: hidden;
-    }
-  }
-  
-  /* ✅ Medium Screens (1024px and smaller) */
-  @media (max-width: 1024px) {
-    .contact_container {
-      flex-direction: column;
-      height: auto;
-      gap: 30px;
-        overflow: hidden;
-    }
-  
-    .inputs_block {
-      width: 90%;
-      transform: none;
-      translate: 0;
-        overflow: hidden;
-    }
-  
-    .col_block {
-      width: 90%;
-      height: auto;
-        overflow: hidden;
-    }
-  
-    .col_block .col_mass {
-      flex-direction: column;
-      align-items: center;
-        overflow: hidden;
-    }
-  
-    .col_block .col_mass .info_block {
-      width: 100%;
-      transform: rotate(0);
-      translate: 0;
-        overflow: hidden;
-    }
-  }
-  
-  /* ✅ Tablets (768px and smaller) */
-  @media (max-width: 768px) {
-    .pickchar {
-      transform: translateY(0);
-        overflow: hidden;
-    }
-  
-    .pickchar h2 {
-      font-size: 3em;
-        overflow: hidden;
-    }
-  
-    .inputs_block {
-      width: 100%;
-      transform: none;
-      translate: 0;
-        overflow: hidden;
-    }
-  
-    .maps {
-      height: 150px;
-      translate: 0;
-        overflow: hidden;
-    }
-  }
-  
-  /* ✅ Mobile Phones (480px and smaller) */
-  @media (max-width: 480px) {
-    .pickchar h2 {
-      font-size: 2em;
-        overflow: hidden;
-    }
-  
-    .inputs_block {
-      width: 100%;
-      height: auto;
-      padding: 20px;
-        overflow: hidden;
-    }
-  
-    .col_block {
-      width: 100%;
-        overflow: hidden;
-    }
-  
-    .maps {
-      height: 120px;
-        overflow: hidden;
-    }
-  }
-  
-  /* ✅ Small Mobile Devices (320px and smaller) */
-  @media (max-width: 320px) {
-    .pickchar h2 {
-      font-size: 1.5em;
-        overflow: hidden; 
-    }
-  
-    .inputs_block {
-      width: 100%;
-      padding: 15px;
-        overflow: hidden;
-    }
-  
-    .maps {
-      height: 100px;
-        overflow: hidden;
-    }
+@media (max-width: 480px) {
+  .contact_block {
+      height: 100%;
+      padding-top: 18%;
+      gap: 1px;
+      overflow: auto;
   }
 
+  .inputs_block .text {
+    font-size: 1em;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .pickchar {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-300px);
+      flex-direction: column;
+  }
+
+  .pickchar h2 {
+      font-size: 1.8em;
+      text-align: center;
+  }
+
+  .contact_container {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      gap: 20px;
+  }
+
+  .inputs_block {
+      width: 100%;
+      height: auto;
+      padding: 20px 10px;
+      transform: none;
+      translate: 0;
+      rotate: none;
+  }
+
+  .inputs_block .text,
+  .name,
+  .surname,
+  .emile,
+  .massage,
+  .text,
+  .inputs_block button {
+      width: 90%;
+      position: relative;
+  }
+
+  .inputs_block input,
+  .massage textarea {
+      width: 100%;
+      height: 50xp;
+      font-size: .7em;
+  }
+
+  .inputs_block button {
+      width: 40%;
+      font-size: .7em;
+      height: 45px;
+  }
+
+  .col_block {
+      width: 95%;
+      height: auto;
+      transform: none;
+      translate: 0;
+      gap: 20px;
+      align-items: center;
+  }
+
+  .col_block .text_block {
+      width: 100%;
+      translate: 0;
+      font-size: 1em;
+      text-align: center;
+  }
+
+  .col_block .col_mass {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+  }
+
+  .col_block .col_mass .info_block {
+      width: 100%;
+      transform: none;
+      translate: 0;
+      rotate: none;
+      text-align: center;
+      font-size: 0.95em;
+  }
+
+  .maps {
+      width: 100%;
+      height: 150px;
+      translate: 0;
+  }
+}
 
 
 
