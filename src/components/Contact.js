@@ -41,7 +41,6 @@ export default function Contact() {
       }
     }, 1000);
   }, []);
-
   return (
     <div className='contact_block'>
       {img.map((item, index) => (
@@ -102,4 +101,3 @@ export default function Contact() {
     </div>
   );
 }
-
