@@ -10,8 +10,7 @@ export default function Home() {
         <h1>Artyom Ghukasyan</h1>
         <h3>And I'm a Frontend Developer</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, voluptates ipsa! 
-          Quae explicabo eius tempora sapiente non? Minima unde dignissimos earum velit.
+          Hello, I am Artyom, and I am Front End developer specializing in both front-end and back-end programming. My goal is to create efficient, user-friendly, and visually appealing websites and applications that best meet user requirements.
         </p>
 
         <div className="item_block">
