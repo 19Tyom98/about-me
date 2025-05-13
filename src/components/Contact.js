@@ -1,43 +1,37 @@
-import React from 'react'
-import '../components/Contact.css'
-import { pick2 } from './alllist'
-import{ contact_col } from './alllist'
+import React from 'react';
+import { list, img } from './alllist';
+import { write } from './alllist';
 
-export default function Contact() {
+export default function Home() {
   return (
-    <div className='contact_block'>
-      <div className="name_page">
-        <h1>Contact Me</h1>
-      </div>
-
-      <div className="constructor_block">
-        <div className="images">
-             {
-                 contact_col.map(col => {
-                  return <div className="info_block">
-                      {col.logo}
-                      <h3>{col.name}</h3>
-                      <p>{col.ipee}</p>
-                  </div>
-                 })
-              }
-       </div>
+    <div className="home">
+      <div className="about">
+        <h3>Hello, 👋 It's Me</h3>
+        <h1>Artyom Ghukasyan</h1>
+        <h3>And I'm a Frontend Developer</h3>
        {
-        pick2.map(ite => {
-          return <div className="pickchar">
-            <img src={ite.pickchar2} alt="" />
-          </div>
+        write.map(wr => {
+          return <p>  Hello, I am Artyom, and I am Front End developer specializing in both front-end and back-end programming. My goal is to create efficient, user-friendly, and visually appealing websites and applications that best meet user requirements.</p>
         })
        }
+        <div className="item_block">
+          {list.map((item, index) => (
+            <a key={index} href={item.web} target="_blank" rel="noopener noreferrer">
+              {item.ico}
+            </a>
+          ))}
+        </div>
 
-       <div className="text_contact">
-        <h2>Hello World</h2>
-        <p>Thank you for visiting my website. If you have any questions, suggestions, or simply wish to get in touch, I’m always ready to hear from you. Your feedback is truly important to me, as it helps me grow, improve my services, and create a better experience for every visitor.
+        <a href="/path/to/cv.pdf" download>
+          <button>Download CV</button>
+        </a>
+      </div>
 
-I’m here to help—whether you’re looking to collaborate, request a service, need technical support, or are just curious about my work.
-Getting in touch is easy: simply use the contact details below.</p>
-       </div>
+      <div className="my_pictures">
+        {img.map((im, index) => (
+          <img key={index} src={im.pic} alt="Profile" />
+        ))}
       </div>
     </div>
-  )
+  );
 }
