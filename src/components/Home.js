@@ -1,6 +1,6 @@
 import React from 'react';
 import { list, img } from './alllist';
-import About from './About';
+import { write } from './alllist';
 
 export default function Home() {
   return (
@@ -9,11 +9,11 @@ export default function Home() {
         <h3>Hello, 👋 It's Me</h3>
         <h1>Artyom Ghukasyan</h1>
         <h3>And I'm a Frontend Developer</h3>
-        <p>
-        Hello, I am Artyom, and I am Front End developer specializing in both front-end and back-end programming. My goal is to create efficient, user-friendly, and visually appealing websites and applications that best meet user requirements.
-
-        </p>
-
+       {
+        write.map(wr => {
+          return <p>  Hello, I am Artyom, and I am Front End developer specializing in both front-end and back-end programming. My goal is to create efficient, user-friendly, and visually appealing websites and applications that best meet user requirements.</p>
+        })
+       }
         <div className="item_block">
           {list.map((item, index) => (
             <a key={index} href={item.web} target="_blank" rel="noopener noreferrer">
@@ -35,5 +35,4 @@ export default function Home() {
     </div>
   );
 }
-
 
