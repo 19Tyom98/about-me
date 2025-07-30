@@ -1,16 +1,16 @@
 import './App.css';
-// import './About.css'
 import Header from './components/Header';
 import Home from './components/Home';
 import { Context } from './components/Context';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  const value = {}
+  const value = {};
+
   return (
     <Context.Provider value={value}>
         <div className="App">
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App:
+export default App;
