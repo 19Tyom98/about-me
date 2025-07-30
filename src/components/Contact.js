@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/Contact.css'
 import { pick2 } from './alllist'
-import{ contact_col } from './alllist'
+// import { contact_col } from './alllist'
 
 export default function Contact() {
   return (
@@ -12,7 +12,7 @@ export default function Contact() {
 
       <div className="constructor_block">
         <div className="images">
-             {
+             {/* {
                  contact_col.map(col => {
                   return <div className="info_block">
                       {col.logo}
@@ -20,7 +20,7 @@ export default function Contact() {
                       <p>{col.ipee}</p>
                   </div>
                  })
-              }
+              } */}
        </div>
        {
         pick2.map(ite => {
