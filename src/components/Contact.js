@@ -53,7 +53,7 @@ const pick2 = [{pickchar2 : './images/meee.jpg'}]
        {
         pick2.map(ite => {
           return <div className="pickchar">
-            <img src={ite.pickchar2} alt="" />
+            <img src={ite.pickchar2} alt="img" />
           </div>
         })
        }
@@ -69,4 +69,3 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
-
