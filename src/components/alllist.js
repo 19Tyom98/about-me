@@ -1,6 +1,7 @@
 import { FaGithub, FaInstagram, FaTelegramPlane, } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
+
 export const list = [
     {
         id: Math.random(),
@@ -50,6 +51,9 @@ export const skyls = [
         na3 : 'JAVA SCRIPT',
         na4 : 'REACT',
         na5 : 'REDUX',
-        na6 : 'REACT TULKIT'
+        na6 : 'REACT TULKIT' 
     }
 ]
+
+export const write = [{write : '  Hello, I am Artyom, and I am Front End developer specializing in both front-end and back-end programming. My goal is to create efficient, user-friendly, and visually appealing websites and applications that best meet user requirements.'}]
+
