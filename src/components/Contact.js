@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Contact.css'
-import { pick2 } from './alllist'
+// import { pick2 } from './alllist'
 // import { contact_col } from './alllist'
 
 export default function Contact() {
@@ -22,13 +22,13 @@ export default function Contact() {
                  })
               } */}
        </div>
-       {
+       {/* {
         pick2.map(ite => {
           return <div className="pickchar">
             <img src={ite.pickchar2} alt="" />
           </div>
         })
-       }
+       } */}
 
        <div className="text_contact">
         <h2>Hello World</h2>
