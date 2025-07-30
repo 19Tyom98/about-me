@@ -7,7 +7,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Contact() {
 
-const pick2 = [{pickchar2 : './images/yess.png'}]
+const pick2 = [{pick2 : './images/yess.png'}]
 
  const contact_col = [
     {
@@ -50,7 +50,7 @@ Getting in touch is easy: simply use the contact details below.</p>
        {
         pick2.map(ite => {
           return <div className="pickchar">
-            <img src={ite.pickchar2} alt="img" />
+            <img src={ite.pick2} alt="img" />
           </div>
         })
        }
@@ -70,3 +70,4 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
+
