@@ -7,7 +7,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Contact() {
 
-const pick2 = [{pick2 : './images/UsImg.png'}]
+const pick2 = [{pick2 : './images/oper.jpg'}]
 
  const contact_col = [
     {
