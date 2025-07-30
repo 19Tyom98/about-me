@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/Contact.css'
 import { pick2 } from './alllist'
-import{ contact_col } from './alllist'
+import{ contact_col } from '../components/alllist'
 
 export default function Contact() {
   return (
