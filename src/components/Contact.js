@@ -39,6 +39,22 @@ const pick2 = [{pickchar2 : './images/meee.jpg'}]
       </div>
 
       <div className="constructor_block">
+      <div className="text_contact">
+        <h2>Hello World</h2>
+        <p>Thank you for visiting my website. If you have any questions, suggestions, or simply wish to get in touch, I am always ready to hear from you. Your feedback is truly important to me, as it helps me grow, improve my services, and create a better experience for every visitor.
+
+I am here to help—whether you are looking to collaborate, request a service, need technical support, or are just curious about my work.
+Getting in touch is easy: simply use the contact details below.</p>
+       </div>
+
+       {
+        pick2.map(ite => {
+          return <div className="pickchar">
+            <img src={ite.pickchar2} alt="img" />
+          </div>
+        })
+       }
+
         <div className="images">
              {
                  contact_col.map(col => {
@@ -49,21 +65,6 @@ const pick2 = [{pickchar2 : './images/meee.jpg'}]
                   </div>
                  })
               }
-       </div>
-       {
-        pick2.map(ite => {
-          return <div className="pickchar">
-            <img src={ite.pickchar2} alt="img" />
-          </div>
-        })
-       }
-
-       <div className="text_contact">
-        <h2>Hello World</h2>
-        <p>Thank you for visiting my website. If you have any questions, suggestions, or simply wish to get in touch, I am always ready to hear from you. Your feedback is truly important to me, as it helps me grow, improve my services, and create a better experience for every visitor.
-
-I am here to help—whether you are looking to collaborate, request a service, need technical support, or are just curious about my work.
-Getting in touch is easy: simply use the contact details below.</p>
        </div>
       </div>
     </div>
