@@ -7,8 +7,6 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Contact() {
 
-const pick2 = [{pick2 : './images/oper.jpg'}]
-
  const contact_col = [
     {
         logo : <BsTelephone />,
@@ -31,6 +29,8 @@ const pick2 = [{pick2 : './images/oper.jpg'}]
     ipee : 'Respublic Of Armenia'
     },
 ]
+
+const pick2 = [{pick2 : './images/oper.jpg'}]
 
   return (
     <div className='contact_block'>
