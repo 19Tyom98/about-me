@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaTelegramPlane, } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 export const list = [
@@ -20,8 +20,8 @@ export const list = [
     },
     {
         id: Math.random(),
-        web: 'https://www.facebook.com/',
-        ico : <FaFacebook />
+        web: 'http://linkedin.com/in/artyom-ghukasyan-0b89b0293',
+        ico : <FaLinkedin />
     }
 
 ]
