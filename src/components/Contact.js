@@ -30,7 +30,7 @@ export default function Contact() {
     },
 ]
 
-const pick2 = [{pick2 : './images/oper.jpg'}]
+const pick2 = [{ pick: '/images/oper.jpg' }];
 
   return (
     <div className='contact_block'>
@@ -50,7 +50,7 @@ Getting in touch is easy: simply use the contact details below.</p>
        {
         pick2.map(ite => {
           return <div className="pickchar">
-            <img src={ite.pick2} alt="img" />
+            <img src={ite.pick} alt="img" />
           </div>
         })
        }
