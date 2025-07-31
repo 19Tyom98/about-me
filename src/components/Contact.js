@@ -32,7 +32,7 @@ export default function Contact() {
     },
 ];
 
-const nkar2 = [{ nkar : './images/oper.jpg' }];
+const nkar2 = [{ nkar : 'https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/09/macbook-with-lid-open-in-darkness.jpg' }];
 
 
   return (
@@ -73,6 +73,8 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
+
+
 
 
 
