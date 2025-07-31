@@ -32,7 +32,7 @@ export default function Contact() {
     },
 ];
 
-const nkar2 = [{ nkar : 'https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/09/macbook-with-lid-open-in-darkness.jpg' }];
+const nkar2 = [{ nkar : 'https://c0.wallpaperflare.com/preview/912/739/608/black-coffee-break-break-time-brewed-coffee.jpg' }];
 
 
   return (
