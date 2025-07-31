@@ -1,9 +1,13 @@
 import React from 'react'
 import '../components/Contact.css'
+import React, { useEffect } from 'react'
+import './Contact.css'
+
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
+
 
 export default function Contact() {
 
@@ -70,5 +74,6 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
+
 
 
