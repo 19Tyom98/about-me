@@ -1,6 +1,5 @@
 import React from 'react'
 import '../components/Contact.css'
-import React, { useEffect } from 'react'
 import './Contact.css'
 
 import { BsTelephone } from "react-icons/bs";
@@ -74,6 +73,9 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
+
+
+
 
 
 
