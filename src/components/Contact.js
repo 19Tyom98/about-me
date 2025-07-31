@@ -1,11 +1,13 @@
 import React from 'react'
 import '../components/Contact.css'
 import './Contact.css'
+import { nkar2 } from './alllist';
 
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
+
 
 
 export default function Contact() {
@@ -33,7 +35,7 @@ export default function Contact() {
     },
 ]
 
-const pick2 = [{ pick: '/images/oper.jpg' }];
+
 
   return (
     <div className='contact_block'>
@@ -51,9 +53,9 @@ Getting in touch is easy: simply use the contact details below.</p>
        </div>
 
        {
-        pick2.map(ite => {
+        nkar2.map(ite => {
           return <div className="pickchar">
-            <img src={ite.pick} alt="img" />
+            <img src={ite.nkar2} alt="img" />
           </div>
         })
        }
