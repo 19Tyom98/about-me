@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contact.css'
-
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
@@ -9,8 +8,6 @@ import { IoLocationOutline } from "react-icons/io5";
 
 
 export default function Contact() {
-
-  const nkar2 = [{ nkar : './images/oper.jpg' }];
 
  const contact_col = [
     {
@@ -33,8 +30,9 @@ export default function Contact() {
     name : 'Our Office',
     ipee : 'Respublic Of Armenia'
     },
-]
+];
 
+const nkar2 = [{ nkar : './images/oper.jpg' }];
 
 
   return (
@@ -75,6 +73,7 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
+
 
 
 
