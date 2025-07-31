@@ -11,7 +11,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Contact() {
 
-  const nkar2 = [{ nkar2: '/images/oper.jpg' }];
+  const nkar2 = [{ nkar : '/images/oper.jpg' }];
 
  const contact_col = [
     {
@@ -56,7 +56,7 @@ Getting in touch is easy: simply use the contact details below.</p>
        {
         nkar2.map(ite => {
           return <div className="pickchar">
-            <img src={ite.nkar2} alt="img" />
+            <img src={ite.nkar} alt="img" />
           </div>
         })
        }
@@ -76,8 +76,6 @@ Getting in touch is easy: simply use the contact details below.</p>
     </div>
   )
 }
-
-
 
 
 
